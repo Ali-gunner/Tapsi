@@ -8,6 +8,693 @@
     <title>Tapsi</title>
 </head>
 <body>
-    
+    <header class="main-header">
+      <nav class="nav container">
+        <a href="#">
+          <img src="/assets/images/logo.svg" alt="">
+        </a>
+        <div class="nav__toggler">
+          <div class="bar bar-one"></div>
+          <div class="bar bar-two"></div>
+          <div class="bar bar-three"></div>
+        </div>
+        <ul class="list nav__list">
+          <li class="nav__item"><a href="#">ویدئوها</a></li>
+          <li class="nav__item"><a href="#">پشتیبانی</a></li>
+          <li class="nav__item"><a href="#">امور سهام</a></li>
+          <li class="nav__item"><a href="#">تپسی پک</a></li>
+          <li class="nav__item"><a href="#">فرصت های شغلی</a></li>
+          <li class="nav__item"><a href="#">وبلاگ</a></li>
+          <li class="nav__item cta">
+            <a href="#" class="btn btn--primary btn--block">دانلود تپسی</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero-section">
+      <picture>
+        <source srcset="assets/images/banner.jpg" type="image/jpg" media="(min-width: 768px)">
+        <source srcset="assets/images/banner-mobile.jpg" type="image/jpg" media="(max-width: 768px)">
+        <img alt="banner" src="https://tapsi.ir/images/home/banner.jpg" class="banner-img">
+      </picture>
+      <div class="hero-wrapper container">
+        <div class="intro-btn">
+          <h1>تپسی</h1>
+          <h2>اپلیکیشن درخواست خودرو</h2>
+          <div class="intro-wrapper center-buttons">
+            <div class="intro-btn__passenger">
+              <span class="icon">
+                <svg class="svg-inline--fa fa-cloud-arrow-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cloud-arrow-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z"></path></svg><!-- <i class="fas fa-cloud-download-alt"></i> Font Awesome fontawesome.com -->
+              </span>
+              <p>دانلود اپلیکیشن مسافران</p>
+            </div>
+            <div class="intro-btn__passenger">
+              <span class="icon">
+                <svg class="svg-inline--fa fa-cloud-arrow-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cloud-arrow-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z"></path></svg><!-- <i class="fas fa-cloud-download-alt"></i> Font Awesome fontawesome.com -->
+              </span>
+              <p>وب اپلیکیشن مسافران</p>
+            </div>
+
+            <div class="intro-btn__passenger driver-intro">
+              <span class="icon">
+                <svg class="svg-inline--fa fa-car" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="car" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M135.2 117.4L109.1 192H402.9l-26.1-74.6C372.3 104.6 360.2 96 346.6 96H165.4c-13.6 0-25.7 8.6-30.2 21.4zM39.6 196.8L74.8 96.3C88.3 57.8 124.6 32 165.4 32H346.6c40.8 0 77.1 25.8 90.6 64.3l35.2 100.5c23.2 9.6 39.6 32.5 39.6 59.2V400v48c0 17.7-14.3 32-32 32H448c-17.7 0-32-14.3-32-32V400H96v48c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V400 256c0-26.7 16.4-49.6 39.6-59.2zM128 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm288 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"></path></svg><!-- <i class="fas fa-car"></i> Font Awesome fontawesome.com -->
+              </span>
+              <p>ثبت نام راننده موتور</p>
+            </div>
+            <div class="intro-btn__passenger driver-intro">
+              <span class="icon">
+                <svg class="svg-inline--fa fa-car" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="car" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M135.2 117.4L109.1 192H402.9l-26.1-74.6C372.3 104.6 360.2 96 346.6 96H165.4c-13.6 0-25.7 8.6-30.2 21.4zM39.6 196.8L74.8 96.3C88.3 57.8 124.6 32 165.4 32H346.6c40.8 0 77.1 25.8 90.6 64.3l35.2 100.5c23.2 9.6 39.6 32.5 39.6 59.2V400v48c0 17.7-14.3 32-32 32H448c-17.7 0-32-14.3-32-32V400H96v48c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V400 256c0-26.7 16.4-49.6 39.6-59.2zM128 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm288 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"></path></svg><!-- <i class="fas fa-car"></i> Font Awesome fontawesome.com -->
+              </span>
+              <p>ثبت نام راننده خودرو</p>
+            </div>
+            <div class="intro-btn__passenger driver-intro">
+              <span class="icon">
+                <svg class="svg-inline--fa fa-cloud-arrow-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cloud-arrow-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z"></path></svg><!-- <i class="fas fa-cloud-download-alt"></i> Font Awesome fontawesome.com -->
+              </span>
+              <p>دانلود اپلیکیشن رانندگان</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services container block">
+      <h2 class="services__title block-heading">سرویس های تپسی</h2>
+      <div class="services__tabs">
+        <a class="tab active" data-tab-target="nav-classic-tab">
+          <img src="assets/images/cc-classic.png" alt="tapsi-classic-icon">
+          <p>تپسی کلاسیک</p>
+        </a>
+        <a class="tab" data-tab-target="nav-tel-tab">
+          <img src="assets/images/cc-tel.png" alt="tapsi-tel-icon">
+          <p>تپسی تلفنی</p>
+        </a>
+        <a class="tab" data-tab-target="nav-line-tab">
+          <img src="assets/images/cc-line.png" alt="tapsi-line-icon">
+          <p>تپسی لاین</p>
+        </a>
+        <a class="tab" data-tab-target="nav-motopeyk-tab">
+          <img src="assets/images/cc-motopeyk.png" alt="motopeyk-icon">
+          <p>موتوپیک</p>
+        </a>
+        <a class="tab" data-tab-target="nav-autopeyk-tab">
+          <img src="assets/images/cc-autopeyk.png" alt="autopeyk-icon">
+          <p>اتوپیک</p>
+        </a>
+        <a class="tab" data-tab-target="nav-plus-tab">
+          <img src="assets/images/cc-plus.png" alt="tapsi-plus-icon">
+          <p>تپسی پلاس</p>
+        </a>
+        <a class="tab" data-tab-target="nav-hamyar-tab">
+          <img src="assets/images/cc-hamyar.png" alt="hamyar-icon">
+          <p>همیار</p>
+        </a>
+      </div>
+      <div class="container">
+        <div class="tab-content active" id="nav-classic-tab">
+          <div class="feature__image">
+            <img src="assets/images/illus-classic.webp" alt="">
+          </div>
+          <div class="feature__detail">
+            <h3 class="feature__title">تپسی کلاسیک</h3>
+            <p class="feature__text">
+              با سرویس کلاسیک تپسی، یک خودروی اختصاصی برای رسیدن به مقصدتان
+              دارید. تپسی کلاسیک، راهی سریع و آسان برای سفرهای درون&zwnj;شهری در
+              هر ساعتی از روز است. در این سرویس، شما امکان تعیین دو یا چند مقصد
+              و همچنین توقف در مسیر را دارید.
+            </p>
+          </div>
+        </div>
+        <div class="tab-content" id="nav-motopeyk-tab">
+          <div class="feature__image">
+            <img src="assets/images/illus-motopeyk.webp" alt="">
+          </div>
+          <div class="feature__detail">
+            <h3 class="feature__title">موتوپیک</h3>
+            <p class="feature__text">
+              با استفاده از سرویس موتوپیک، بسته&zwnj;ها و مرسولاتتان با پیک
+              موتور به مقصد ارسال می&zwnj;شوند. این سرویس مناسب زمانی است که
+              می&zwnj;خواهید مرسوله سریع&zwnj;تر به مقصد برسد. در این سرویس، شما
+              می&zwnj;توانید مسیر رسیدن مرسوله&zwnj;تان به مقصد را به صورت
+              لحظه&zwnj;ای روی نقشه دنبال کنید.
+            </p>
+          </div>
+        </div>
+        <div class="tab-content" id="nav-autopeyk-tab">
+          <div class="feature__image">
+            <img src="assets/images/illus-autopeyk.webp" alt="">
+          </div>
+          <div class="feature__detail">
+            <h3 class="feature__title">اتوپیک</h3>
+            <p class="feature__text">
+              اتوپیک سرویسی برای ارسال بسته&zwnj;های شما با خودرو است. این
+              سرویس، برای زمانی مناسب است که بسته&zwnj;های شما، با موتور قابل
+              ارسال نیستند و یا در حین جابجایی، نیاز به مراقبت بیشتری دارند. در
+              این سرویس نیز امکان رصد لحظه &zwnj;به لحظه موقعیت مکانی مرسوله تا
+              زمان رسیدن به مقصد فراهم است.
+            </p>
+          </div>
+        </div>
+        <div class="tab-content" id="nav-plus-tab">
+          <div class="feature__image">
+            <img src="assets/images/illus-plus.webp" alt="">
+          </div>
+          <div class="feature__detail">
+            <h3 class="feature__title">تپسی پلاس</h3>
+            <p class="feature__text">
+              در سرویس پلاس تاکسی اینترنتی تپسی، خودرویی با مدل بالاتر و عمر
+              کمتر، به دنبال شما خواهد آمد. همچنین، رانندگان این سرویس بالاترین
+              امتیاز را از مسافران دریافت کرده&zwnj;اند. در این سرویس که در حال
+              حاضر در تهران فعال است، امکان تعیین چند مقصد یا توقف در حین سفر،
+              وجود دارد.
+            </p>
+          </div>
+        </div>
+        <div class="tab-content" id="nav-tel-tab">
+          <div class="feature__image">
+            <img src="assets/images/illus-tel.webp" alt="">
+          </div>
+          <div class="feature__detail">
+            <h3 class="feature__title">تپسی تلفنی</h3>
+            <p class="feature__text">
+              سرویس تپسی تلفنی یا ۱۶۳۰، این امکان را به شما می&zwnj;دهد که بدون
+              نیاز به اینترنت و اپلیکیشن، درخواست خودرو بدهید. این سرویس تاکسی
+              تلفنی مناسب زمانی است که به هر دلیلی دسترسی به اینترنت یا اپلیکیشن
+              ندارید. همچنین سرویس تلفنی تپسی، راه حلی مناسب برای افرادی است که
+              کار کردن با اپلیکیشن&zwnj;های موبایلی برایشان راحت نیست.
+            </p>
+          </div>
+        </div>
+        <div class="tab-content" id="nav-hamyar-tab">
+          <div class="feature__image">
+            <img src="assets/images/illus-hamyar.webp" alt="">
+          </div>
+          <div class="feature__detail">
+            <h3 class="feature__title">همیار</h3>
+            <p class="feature__text">
+              سرویس همیار تپسی، به جای شما خرید می&zwnj;کند. کافیست فروشگاه مورد
+              نظر خود را به عنوان مبدا مشخص کرده و لیست خریدتان را داخل اپ وارد
+              کنید. این خرید&zwnj;ها می&zwnj;تواند از سوپرمارکت یا داروخانه مورد
+              نظر شما باشند.
+            </p>
+          </div>
+        </div>
+        <div class="tab-content" id="nav-hamkhat-tab">
+          <div class="feature__image">
+            <img src="assets/images/illus-hamkhat.webp" alt="">
+          </div>
+          <div class="feature__detail">
+            <h3 class="feature__title">هم خط</h3>
+            <p class="feature__text">
+              سرویس هم&zwnj;خط تپسی شما را با مینی&zwnj;بوس&zwnj; به مقصد
+              می&zwnj;رساند. با استفاده از سرویس هم&zwnj;خط بعد از انتخاب مسیر
+              سفر، بلیت&zwnj;تان را خریداری کنید و سریع&zwnj;تر و راحت&zwnj;تر
+              به مقصد برسید. این سرویس خطی بسیار ارزان&zwnj;تر از دیگر
+              سرویس&zwnj;های تپسی است و شما را سریع&zwnj;تر و راحت&zwnj;تر از
+              حمل&zwnj;ونقل عمومی به مقصدتان می&zwnj;رساند. شما می&zwnj;توانید
+              از قبل بلیت هم خط را رزرو کنید و با رعایت فاصله اجتماعی به مقصد
+              برسید. سرویس مینی بوس آنلاین فعلا فقط در تهران فعال است.
+            </p>
+          </div>
+        </div>
+        <div class="tab-content" id="nav-taxi-tab">
+          <div class="feature__image">
+            <img src="assets/images/illus-taxi.webp" alt="">
+          </div>
+          <div class="feature__detail">
+            <h3 class="feature__title">تپسی تاکسی</h3>
+            <p class="feature__text">
+              در سرویس تاکسی تپسی، تاکسی&zwnj;های زرد یا سبز شما را به مقصدتان
+              می&zwnj;رسانند. این سرویس در حال حاضر در تهران فعال است و چنانچه
+              به دلایلی مانند ورود به محدوده طرح ترافیک یا طرح آلودگی هوا، ترجیح
+              بدهید از تاکسی برای رفت&zwnj;وآمدتان استفاده کنید، گزینه مناسبی
+              خواهد بود.
+            </p>
+          </div>
+        </div>
+        <div class="tab-content" id="nav-line-tab">
+          <div class="feature__image">
+            <img src="assets/images/illus-line.webp" alt="">
+          </div>
+          <div class="feature__detail">
+            <h3 class="feature__title">تپسی لاین</h3>
+            <p class="feature__text">
+              تپسی لاین سرویسی است که امکان سفر اشتراکی را برایتان فراهم
+              می&zwnj;کند. در این سرویس شما با مسافر دیگری که هم&zwnj;مسیرتان
+              است، هم&zwnj;سفر خواهید بود و هزینه سفرتان تقسیم می&zwnj;شود. این
+              سرویس در حال حاضر به دلیل شرایط همه&zwnj;گیری بیماری کرونا از
+              دسترس خارج شده اما با بهبود شرایط می&zwnj;توانید از سرویس لاین
+              استفاده کنید.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feature container block">
+      <div class="feature__image">
+        <img src="/assets/images/i-mac-1.png" alt="">
+      </div>
+      <div class="feature__detail">
+        <h2 class="feature__title">خدمات تپسی برای کسب و کارها</h2>
+        <p class="feature__text">
+          پنل سازمانی تپسی، یک سامانه تحت وب است که به سادگی امکان درخواست
+          هم&zwnj;زمان تعداد نامحدودی خودرو و پیک را برای کسب&zwnj;وکارها و
+          سازمان&zwnj;ها فراهم می&zwnj;کند. و با استفاده از آن می&zwnj;توانید
+          ماموریت های درون&zwnj;شهری و ارسال کالاهای خود را به سادگی مدیریت
+          کنید.
+        </p>
+        <button class="btn btn--primary">ورود و ثبت نام سازمانی</button>
+      </div>
+    </section>
+    <section class="feature container block charge">
+      <div class="feature__image">
+        <img src="/assets/images/i-mac-1.png" alt="">
+      </div>
+      <div class="feature__detail">
+        <h2 class="feature__title">خرید کد اعتبار تپسی</h2>
+        <p class="feature__text">
+          کاربران، کسب&zwnj;وکارها و سازمان&zwnj;ها می&zwnj;توانند به تعداد و
+          مبلغ مورد نظرشان، کد اعتبار یا کد تخفیف تپسی تهیه کرده، برای خود،
+          پرسنل و یا مشتریانشان استفاده کنند و از تخفیف&zwnj;های ویژه تپسی نیز
+          بهره&zwnj;مند شوند. این کدها امکان سفارشی&zwnj;سازی بر اساس مبدا،
+          مقصد، زمان، درصد و مبلغ را دارند.
+        </p>
+        <button class="btn btn--primary">خرید کد اعتبار و تخفیف</button>
+      </div>
+    </section>
+    <section class="container block">
+      <h2 class="block__heading">تعرفه های ویژه مشتریان</h2>
+      <div class="block-plan">
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <span class="plan__introduction">
+                <span class="plan__name">عادی</span>
+                <span class="badge badge--secondary"> 10% OFFF </span>
+              </span>
+              <span class="plan__price">290,000</span>
+              <span class="plan__billing-cycle">ماهانه / تومان</span>
+              <span class="plan__description">سرویس ماشین های معمولی</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">کیفیت افتضاح</li>
+                <li class="list__item">چهار تا چرخ داره</li>
+                <li class="list__item">راننده بد اخلاق</li>
+              </ul>
+              <button class="btn btn--secondary btn--block">ثبت سفارش</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan plan--popular">
+          <div class="card card--primary">
+            <header class="card__header">
+              <span class="plan__introduction">
+                <span class="plan__name">اقتصادی</span>
+                <span class="badge badge--primary"> 15% OFFF </span>
+              </span>
+              <span class="plan__price">390,000</span>
+              <span class="plan__billing-cycle">ماهانه / تومان</span>
+              <span class="plan__description">سرویس ماشین های مدل بالا</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">کیفیت عالی</li>
+                <li class="list__item">کم سر و صدا</li>
+                <li class="list__item">سرویس روزانه</li>
+                <li class="list__item">زمان محدود</li>
+              </ul>
+              <button class="btn btn--primary btn--block">ثبت سفارش</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <span class="plan__introduction">
+                <span class="plan__name">ویژه</span>
+                <span class="badge badge--secondary"> 20% OFFF </span>
+              </span>
+              <span class="plan__price">490,000</span>
+              <span class="plan__billing-cycle">ماهانه / تومان</span>
+              <span class="plan__description">سرویس ماشین های کلاسیک</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">کیفیت خفن</li>
+                <li class="list__item">بی سروصدا</li>
+                <li class="list__item">سرویس روزانه</li>
+                <li class="list__item">زمان نامحدود</li>
+              </ul>
+              <button class="btn btn--secondary btn--block">ثبت سفارش</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container travell block">
+      <h2 class="block__heading">جوایز راننده برتر</h2>
+      <div class="travell__slides">
+        <div class="travell__slide">
+          <div class="slide__img">
+            <img src="/assets/images/travell.png" alt="">
+          </div>
+          <div class="slide__detail">
+            <div class="slide__header">
+              <span class="badge badge--primary">ویژه</span>
+              <p>اقامت رایگان • سفر سه روزه</p>
+            </div>
+            <p class="slide__title">سفر به قلب کویر</p>
+            <div class="avatar-group">
+              <div class="avatar">
+                <img src="/assets/images/avatar-1.jpg">
+              </div>
+              <div class="avatar">
+                <img src="assets/images/avatar-2.jpeg">
+              </div>
+              <div class="avatar">
+                <img src="/assets/images/avatar-3.jpg">
+              </div>
+              <div class="hidden-avatars">10+</div>
+              <span class="slide__suggest">پیشنهاد</span>
+            </div>
+            <div class="slide__icons">
+              <div class="">
+                <svg class="svg-inline--fa fa-heart" style="color: orangered;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"></path></svg><!-- <i class="fas fa-heart" style="color: orangered"></i> Font Awesome fontawesome.com -->
+                <span>12</span>
+                <svg class="svg-inline--fa fa-eye" aria-hidden="true" focusable="false" data-prefix="far" data-icon="eye" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z"></path></svg><!-- <i class="far fa-eye"></i> Font Awesome fontawesome.com -->
+                <span>24</span>
+              </div>
+              <div>
+                <svg class="svg-inline--fa fa-pen-to-square" aria-hidden="true" focusable="false" data-prefix="far" data-icon="pen-to-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M441 58.9L453.1 71c9.4 9.4 9.4 24.6 0 33.9L424 134.1 377.9 88 407 58.9c9.4-9.4 24.6-9.4 33.9 0zM209.8 256.2L344 121.9 390.1 168 255.8 302.2c-2.9 2.9-6.5 5-10.4 6.1l-58.5 16.7 16.7-58.5c1.1-3.9 3.2-7.5 6.1-10.4zM373.1 25L175.8 222.2c-8.7 8.7-15 19.4-18.3 31.1l-28.6 100c-2.4 8.4-.1 17.4 6.1 23.6s15.2 8.5 23.6 6.1l100-28.6c11.8-3.4 22.5-9.7 31.1-18.3L487 138.9c28.1-28.1 28.1-73.7 0-101.8L474.9 25C446.8-3.1 401.2-3.1 373.1 25zM88 64C39.4 64 0 103.4 0 152V424c0 48.6 39.4 88 88 88H360c48.6 0 88-39.4 88-88V312c0-13.3-10.7-24-24-24s-24 10.7-24 24V424c0 22.1-17.9 40-40 40H88c-22.1 0-40-17.9-40-40V152c0-22.1 17.9-40 40-40H200c13.3 0 24-10.7 24-24s-10.7-24-24-24H88z"></path></svg><!-- <i class="far fa-edit"></i> Font Awesome fontawesome.com -->
+                <svg class="svg-inline--fa fa-trash-can" aria-hidden="true" focusable="false" data-prefix="far" data-icon="trash-can" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M170.5 51.6L151.5 80h145l-19-28.4c-1.5-2.2-4-3.6-6.7-3.6H177.1c-2.7 0-5.2 1.3-6.7 3.6zm147-26.6L354.2 80H368h48 8c13.3 0 24 10.7 24 24s-10.7 24-24 24h-8V432c0 44.2-35.8 80-80 80H112c-44.2 0-80-35.8-80-80V128H24c-13.3 0-24-10.7-24-24S10.7 80 24 80h8H80 93.8l36.7-55.1C140.9 9.4 158.4 0 177.1 0h93.7c18.7 0 36.2 9.4 46.6 24.9zM80 128V432c0 17.7 14.3 32 32 32H336c17.7 0 32-14.3 32-32V128H80zm80 64V400c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8 7.2-16 16-16s16 7.2 16 16zm80 0V400c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8 7.2-16 16-16s16 7.2 16 16zm80 0V400c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8 7.2-16 16-16s16 7.2 16 16z"></path></svg><!-- <i class="far fa-trash-alt"></i> Font Awesome fontawesome.com -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="travell__slide">
+          <div class="slide__img">
+            <img src="/assets/images/travell-2.jpg" alt="">
+          </div>
+          <div class="slide__detail">
+            <div class="slide__header">
+              <span class="badge badge--secondary">معمولی</span>
+              <p>سفر سه روزه</p>
+            </div>
+            <p class="slide__title">سفر به قلب کویر</p>
+            <div class="avatar-group">
+              <div class="avatar">
+                <img src="/assets/images/avatar-1.jpg">
+              </div>
+              <div class="avatar">
+                <img src="assets/images/avatar-2.jpeg">
+              </div>
+              <div class="avatar">
+                <img src="/assets/images/avatar-3.jpg">
+              </div>
+              <div class="hidden-avatars">10+</div>
+              <span class="slide__suggest">پیشنهاد</span>
+            </div>
+            <div class="slide__icons">
+              <div class="">
+                <svg class="svg-inline--fa fa-heart" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"></path></svg><!-- <i class="fas fa-heart"></i> Font Awesome fontawesome.com -->
+                <span>12</span>
+                <svg class="svg-inline--fa fa-eye" aria-hidden="true" focusable="false" data-prefix="far" data-icon="eye" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z"></path></svg><!-- <i class="far fa-eye"></i> Font Awesome fontawesome.com -->
+                <span>24</span>
+              </div>
+              <div>
+                <svg class="svg-inline--fa fa-pen-to-square" aria-hidden="true" focusable="false" data-prefix="far" data-icon="pen-to-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M441 58.9L453.1 71c9.4 9.4 9.4 24.6 0 33.9L424 134.1 377.9 88 407 58.9c9.4-9.4 24.6-9.4 33.9 0zM209.8 256.2L344 121.9 390.1 168 255.8 302.2c-2.9 2.9-6.5 5-10.4 6.1l-58.5 16.7 16.7-58.5c1.1-3.9 3.2-7.5 6.1-10.4zM373.1 25L175.8 222.2c-8.7 8.7-15 19.4-18.3 31.1l-28.6 100c-2.4 8.4-.1 17.4 6.1 23.6s15.2 8.5 23.6 6.1l100-28.6c11.8-3.4 22.5-9.7 31.1-18.3L487 138.9c28.1-28.1 28.1-73.7 0-101.8L474.9 25C446.8-3.1 401.2-3.1 373.1 25zM88 64C39.4 64 0 103.4 0 152V424c0 48.6 39.4 88 88 88H360c48.6 0 88-39.4 88-88V312c0-13.3-10.7-24-24-24s-24 10.7-24 24V424c0 22.1-17.9 40-40 40H88c-22.1 0-40-17.9-40-40V152c0-22.1 17.9-40 40-40H200c13.3 0 24-10.7 24-24s-10.7-24-24-24H88z"></path></svg><!-- <i class="far fa-edit"></i> Font Awesome fontawesome.com -->
+                <svg class="svg-inline--fa fa-trash-can" aria-hidden="true" focusable="false" data-prefix="far" data-icon="trash-can" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M170.5 51.6L151.5 80h145l-19-28.4c-1.5-2.2-4-3.6-6.7-3.6H177.1c-2.7 0-5.2 1.3-6.7 3.6zm147-26.6L354.2 80H368h48 8c13.3 0 24 10.7 24 24s-10.7 24-24 24h-8V432c0 44.2-35.8 80-80 80H112c-44.2 0-80-35.8-80-80V128H24c-13.3 0-24-10.7-24-24S10.7 80 24 80h8H80 93.8l36.7-55.1C140.9 9.4 158.4 0 177.1 0h93.7c18.7 0 36.2 9.4 46.6 24.9zM80 128V432c0 17.7 14.3 32 32 32H336c17.7 0 32-14.3 32-32V128H80zm80 64V400c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8 7.2-16 16-16s16 7.2 16 16zm80 0V400c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8 7.2-16 16-16s16 7.2 16 16zm80 0V400c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8 7.2-16 16-16s16 7.2 16 16z"></path></svg><!-- <i class="far fa-trash-alt"></i> Font Awesome fontawesome.com -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="travell__slide">
+          <div class="slide__img">
+            <img src="/assets/images/travell-3.jpg" alt="">
+          </div>
+          <div class="slide__detail">
+            <div class="slide__header">
+              <span class="badge badge--primary">ویژه</span>
+              <p>اقامت رایگان • سفر سه روزه</p>
+            </div>
+            <p class="slide__title">سفر به قلب کویر</p>
+            <div class="avatar-group">
+              <div class="avatar">
+                <img src="/assets/images/avatar-1.jpg">
+              </div>
+              <div class="avatar">
+                <img src="assets/images/avatar-2.jpeg">
+              </div>
+              <div class="avatar">
+                <img src="/assets/images/avatar-3.jpg">
+              </div>
+              <div class="hidden-avatars">10+</div>
+              <span class="slide__suggest">پیشنهاد</span>
+            </div>
+            <div class="slide__icons">
+              <div class="">
+                <svg class="svg-inline--fa fa-heart" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"></path></svg><!-- <i class="fas fa-heart"></i> Font Awesome fontawesome.com -->
+                <span>12</span>
+                <svg class="svg-inline--fa fa-eye" aria-hidden="true" focusable="false" data-prefix="far" data-icon="eye" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z"></path></svg><!-- <i class="far fa-eye"></i> Font Awesome fontawesome.com -->
+                <span>24</span>
+              </div>
+              <div>
+                <svg class="svg-inline--fa fa-pen-to-square" aria-hidden="true" focusable="false" data-prefix="far" data-icon="pen-to-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M441 58.9L453.1 71c9.4 9.4 9.4 24.6 0 33.9L424 134.1 377.9 88 407 58.9c9.4-9.4 24.6-9.4 33.9 0zM209.8 256.2L344 121.9 390.1 168 255.8 302.2c-2.9 2.9-6.5 5-10.4 6.1l-58.5 16.7 16.7-58.5c1.1-3.9 3.2-7.5 6.1-10.4zM373.1 25L175.8 222.2c-8.7 8.7-15 19.4-18.3 31.1l-28.6 100c-2.4 8.4-.1 17.4 6.1 23.6s15.2 8.5 23.6 6.1l100-28.6c11.8-3.4 22.5-9.7 31.1-18.3L487 138.9c28.1-28.1 28.1-73.7 0-101.8L474.9 25C446.8-3.1 401.2-3.1 373.1 25zM88 64C39.4 64 0 103.4 0 152V424c0 48.6 39.4 88 88 88H360c48.6 0 88-39.4 88-88V312c0-13.3-10.7-24-24-24s-24 10.7-24 24V424c0 22.1-17.9 40-40 40H88c-22.1 0-40-17.9-40-40V152c0-22.1 17.9-40 40-40H200c13.3 0 24-10.7 24-24s-10.7-24-24-24H88z"></path></svg><!-- <i class="far fa-edit"></i> Font Awesome fontawesome.com -->
+                <svg class="svg-inline--fa fa-trash-can" aria-hidden="true" focusable="false" data-prefix="far" data-icon="trash-can" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M170.5 51.6L151.5 80h145l-19-28.4c-1.5-2.2-4-3.6-6.7-3.6H177.1c-2.7 0-5.2 1.3-6.7 3.6zm147-26.6L354.2 80H368h48 8c13.3 0 24 10.7 24 24s-10.7 24-24 24h-8V432c0 44.2-35.8 80-80 80H112c-44.2 0-80-35.8-80-80V128H24c-13.3 0-24-10.7-24-24S10.7 80 24 80h8H80 93.8l36.7-55.1C140.9 9.4 158.4 0 177.1 0h93.7c18.7 0 36.2 9.4 46.6 24.9zM80 128V432c0 17.7 14.3 32 32 32H336c17.7 0 32-14.3 32-32V128H80zm80 64V400c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8 7.2-16 16-16s16 7.2 16 16zm80 0V400c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8 7.2-16 16-16s16 7.2 16 16zm80 0V400c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8 7.2-16 16-16s16 7.2 16 16z"></path></svg><!-- <i class="far fa-trash-alt"></i> Font Awesome fontawesome.com -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="travell__slide">
+          <div class="slide__img">
+            <img src="/assets/images/travell-4.jpg" alt="">
+          </div>
+          <div class="slide__detail">
+            <div class="slide__header">
+              <span class="badge badge--primary">ویژه</span>
+              <p>قامت رایگان • سفر سه روزه</p>
+            </div>
+            <p class="slide__title">سفر به قلب کویر</p>
+            <div class="avatar-group">
+              <div class="avatar">
+                <img src="/assets/images/avatar-1.jpg">
+              </div>
+              <div class="avatar">
+                <img src="assets/images/avatar-2.jpeg">
+              </div>
+              <div class="avatar">
+                <img src="/assets/images/avatar-3.jpg">
+              </div>
+              <div class="hidden-avatars">10+</div>
+              <span class="slide__suggest">پیشنهاد</span>
+            </div>
+            <div class="slide__icons">
+              <div class="">
+                <svg class="svg-inline--fa fa-heart" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"></path></svg><!-- <i class="fas fa-heart"></i> Font Awesome fontawesome.com -->
+                <span>12</span>
+                <svg class="svg-inline--fa fa-eye" aria-hidden="true" focusable="false" data-prefix="far" data-icon="eye" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z"></path></svg><!-- <i class="far fa-eye"></i> Font Awesome fontawesome.com -->
+                <span>24</span>
+              </div>
+              <div>
+                <svg class="svg-inline--fa fa-pen-to-square" aria-hidden="true" focusable="false" data-prefix="far" data-icon="pen-to-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M441 58.9L453.1 71c9.4 9.4 9.4 24.6 0 33.9L424 134.1 377.9 88 407 58.9c9.4-9.4 24.6-9.4 33.9 0zM209.8 256.2L344 121.9 390.1 168 255.8 302.2c-2.9 2.9-6.5 5-10.4 6.1l-58.5 16.7 16.7-58.5c1.1-3.9 3.2-7.5 6.1-10.4zM373.1 25L175.8 222.2c-8.7 8.7-15 19.4-18.3 31.1l-28.6 100c-2.4 8.4-.1 17.4 6.1 23.6s15.2 8.5 23.6 6.1l100-28.6c11.8-3.4 22.5-9.7 31.1-18.3L487 138.9c28.1-28.1 28.1-73.7 0-101.8L474.9 25C446.8-3.1 401.2-3.1 373.1 25zM88 64C39.4 64 0 103.4 0 152V424c0 48.6 39.4 88 88 88H360c48.6 0 88-39.4 88-88V312c0-13.3-10.7-24-24-24s-24 10.7-24 24V424c0 22.1-17.9 40-40 40H88c-22.1 0-40-17.9-40-40V152c0-22.1 17.9-40 40-40H200c13.3 0 24-10.7 24-24s-10.7-24-24-24H88z"></path></svg><!-- <i class="far fa-edit"></i> Font Awesome fontawesome.com -->
+                <svg class="svg-inline--fa fa-trash-can" aria-hidden="true" focusable="false" data-prefix="far" data-icon="trash-can" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M170.5 51.6L151.5 80h145l-19-28.4c-1.5-2.2-4-3.6-6.7-3.6H177.1c-2.7 0-5.2 1.3-6.7 3.6zm147-26.6L354.2 80H368h48 8c13.3 0 24 10.7 24 24s-10.7 24-24 24h-8V432c0 44.2-35.8 80-80 80H112c-44.2 0-80-35.8-80-80V128H24c-13.3 0-24-10.7-24-24S10.7 80 24 80h8H80 93.8l36.7-55.1C140.9 9.4 158.4 0 177.1 0h93.7c18.7 0 36.2 9.4 46.6 24.9zM80 128V432c0 17.7 14.3 32 32 32H336c17.7 0 32-14.3 32-32V128H80zm80 64V400c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8 7.2-16 16-16s16 7.2 16 16zm80 0V400c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8 7.2-16 16-16s16 7.2 16 16zm80 0V400c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8 7.2-16 16-16s16 7.2 16 16z"></path></svg><!-- <i class="far fa-trash-alt"></i> Font Awesome fontawesome.com -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container block">
+      <h2 class="block__heading">انتخاب راننده</h2>
+      <div class="select-type">
+        <div class="select-control">
+          <input type="radio" name="webinar" id="type-A">
+          <label for="type-A">عمومی</label>
+        </div>
+        <div class="select-control">
+          <input type="radio" name="webinar" id="type-B">
+          <label for="type-B">اختصاصی</label>
+        </div>
+      </div>
+    </section>
+    <section class="container block">
+      <h2>سوابق راننده</h2>
+      <div class="accondion-wrapper">
+        <div class="accordion__intro">
+          <h2 class="accordion__heading">رزومه و سوابق</h2>
+          <span>
+            <span>ویرایش</span>
+            <span>
+              <svg class="svg-inline--fa fa-pen-to-square" aria-hidden="true" focusable="false" data-prefix="far" data-icon="pen-to-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M441 58.9L453.1 71c9.4 9.4 9.4 24.6 0 33.9L424 134.1 377.9 88 407 58.9c9.4-9.4 24.6-9.4 33.9 0zM209.8 256.2L344 121.9 390.1 168 255.8 302.2c-2.9 2.9-6.5 5-10.4 6.1l-58.5 16.7 16.7-58.5c1.1-3.9 3.2-7.5 6.1-10.4zM373.1 25L175.8 222.2c-8.7 8.7-15 19.4-18.3 31.1l-28.6 100c-2.4 8.4-.1 17.4 6.1 23.6s15.2 8.5 23.6 6.1l100-28.6c11.8-3.4 22.5-9.7 31.1-18.3L487 138.9c28.1-28.1 28.1-73.7 0-101.8L474.9 25C446.8-3.1 401.2-3.1 373.1 25zM88 64C39.4 64 0 103.4 0 152V424c0 48.6 39.4 88 88 88H360c48.6 0 88-39.4 88-88V312c0-13.3-10.7-24-24-24s-24 10.7-24 24V424c0 22.1-17.9 40-40 40H88c-22.1 0-40-17.9-40-40V152c0-22.1 17.9-40 40-40H200c13.3 0 24-10.7 24-24s-10.7-24-24-24H88z"></path></svg><!-- <i class="far fa-edit"></i> Font Awesome fontawesome.com -->
+            </span>
+          </span>
+        </div>
+        <div class="accordion">
+          <header class="accordion__header">
+            <h2 class="accordion__heading">سابقه کاری</h2>
+            <span class="">
+              <svg class="svg-inline--fa fa-circle-chevron-left" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM271 135c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-87 87 87 87c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L167 273c-9.4-9.4-9.4-24.6 0-33.9L271 135z"></path></svg><!-- <i class="fas fa-chevron-circle-left"></i> Font Awesome fontawesome.com -->
+            </span>
+          </header>
+          <div class="accordion__content">
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+              نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+            </p>
+          </div>
+        </div>
+        <div class="accordion">
+          <header class="accordion__header">
+            <h2 class="accordion__heading">سابقه تحصیلی</h2>
+            <span class="">
+              <svg class="svg-inline--fa fa-circle-chevron-left" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM271 135c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-87 87 87 87c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L167 273c-9.4-9.4-9.4-24.6 0-33.9L271 135z"></path></svg><!-- <i class="fas fa-chevron-circle-left"></i> Font Awesome fontawesome.com -->
+            </span>
+          </header>
+          <div class="accordion__content">
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+              نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+            </p>
+          </div>
+        </div>
+        <div class="accordion">
+          <header class="accordion__header">
+            <h2 class="accordion__heading">زبان های مسلط</h2>
+            <span class="">
+              <svg class="svg-inline--fa fa-circle-chevron-left" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM271 135c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-87 87 87 87c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L167 273c-9.4-9.4-9.4-24.6 0-33.9L271 135z"></path></svg><!-- <i class="fas fa-chevron-circle-left"></i> Font Awesome fontawesome.com -->
+            </span>
+          </header>
+          <div class="accordion__content">
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+              نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container block">
+      <h2 class="block-heading">تماس با ما</h2>
+      <div class="contact-us">
+        <div class="contact-us__social">
+          <span class="icon-container">
+            <svg class="icon">
+              <use xlink:href="/assets/images/svg-sprite.svg#linkedin"></use>
+            </svg>
+          </span>
+          <span class="icon-container">
+            <svg class="icon">
+              <use xlink:href="/assets/images/svg-sprite.svg#telegram"></use>
+            </svg>
+          </span>
+          <span class="icon-container">
+            <svg class="icon">
+              <use xlink:href="/assets/images/svg-sprite.svg#twitter"></use>
+            </svg>
+          </span>
+        </div>
+        <div class="contact-us__icons">
+          <div class="icon-holder">
+            <span class="icon-holder__label">info@fronthooks.ir</span>
+            <span class="icon-container">
+              <svg class="icon">
+                <use xlink:href="/assets/images/svg-sprite.svg#Message"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="icon-holder">
+            <span class="icon-holder__label">09182430012</span>
+            <span class="icon-container">
+              <svg class="icon">
+                <use xlink:href="/assets/images/svg-sprite.svg#Calling"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="icon-holder">
+            <span class="icon-holder__label">کردستان - سنندج - خیابان 1 - کوچه 2.</span>
+            <span class="icon-container">
+              <svg class="icon icon--small">
+                <use xlink:href="/assets/images/svg-sprite.svg#Message"></use>
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div class="contact-us__map">
+          <img src="/assets/images/map.png" alt="">
+        </div>
+        <div class="contact-us__form">
+          <div class="form-wrapper">
+            <h3>نظرات شما</h3>
+            <form>
+              <input type="text" placeholder="نام و نام خانوادگی ">
+              <input type="email" placeholder="ایمیل خود را وارد کنید" dir="ltr">
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <button type="submit" class="btn btn--primary">ثبت نظر</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="container footer">
+        <div class="footer__item">
+          <h6>تپسی</h6>
+          <a href="#">وبلاگ تپسی</a>
+          <a href="#">فرصت شغلی</a>
+          <a href="#">تماس با ما</a>
+          <a href="#">لوگو و هویت سازمانی</a>
+        </div>
+        <div class="footer__item">
+          <h6>تپسی</h6>
+          <a href="#">وبلاگ تپسی</a>
+          <a href="#">فرصت شغلی</a>
+          <a href="#">تماس با ما</a>
+          <a href="#">لوگو و هویت سازمانی</a>
+        </div>
+        <div class="footer__item">
+          <h6>مسافران</h6>
+          <a href="#">دانلود اپ مسافر</a>
+          <a href="#">نسخه وب تپسی</a>
+          <a href="#">پرسش های متداول مسافران</a>
+          <a href="#">باشگاه مشتریان</a>
+        </div>
+        <div class="footer__item">
+          <h6>رانندگان</h6>
+          <a href="#">ثبت نام راننده تاکسی</a>
+          <a href="#">دانلود اپ سفیر</a>
+          <a href="#">پرسش های متداول سفیران</a>
+          <a href="#">باشگاه مشتریان</a>
+        </div>
+        <div class="footer__item">
+          <h6>کسب و کار ها</h6>
+          <a href="#">پنل سازمانی تپسی</a>
+          <a href="#">خرید کد اعتبار و تخفیف</a>
+          <a href="#">دریافت API</a>
+          <a href="#">شرایط و قوانین</a>
+        </div>
+        <div class="footer__item enemad">
+          <div class="footer__enemad">
+            <img src="/assets/images/enemad.png" alt="">
+          </div>
+          <div class="footer__enemad">
+            <img src="/assets/images/enemad.png" alt="">
+          </div>
+          <div class="footer__enemad">
+            <img src="/assets/images/enemad.png" alt="">
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  
+
 </body>
 </html>
