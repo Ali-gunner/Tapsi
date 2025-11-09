@@ -1074,3 +1074,29 @@ textarea {
   box-shadow: 0 0 0 2px var(--color-primary);
   background-color: var(--color-primary);
 }
+
+/* Language switcher */
+.lang-switcher {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.lang-switcher button {
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  line-height: 1;
+}
+.lang-switcher button[aria-pressed="true"] {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}
+@media (min-width: 768px) {
+  .lang-switcher {
+    margin-inline-start: auto;
+  }
+} /* pushes to the far side */
